@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F9EF82971A1DD53600B66C2E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9EF82961A1DD53600B66C2E /* main.cpp */; };
+		F9EF829E1A1DD88B00B66C2E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EF829D1A1DD88B00B66C2E /* Cocoa.framework */; };
+		F9EF82A01A1DD8A300B66C2E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EF829F1A1DD8A300B66C2E /* OpenGL.framework */; };
+		F9EF82A21A1DD8AF00B66C2E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EF82A11A1DD8AF00B66C2E /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		F9EF82931A1DD53600B66C2E /* opengl_experiment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opengl_experiment; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EF82961A1DD53600B66C2E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F9EF829D1A1DD88B00B66C2E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F9EF829F1A1DD8A300B66C2E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F9EF82A11A1DD8AF00B66C2E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F9EF82A31A1DDA1500B66C2E /* project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = project.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9EF82A21A1DD8AF00B66C2E /* GLUT.framework in Frameworks */,
+				F9EF82A01A1DD8A300B66C2E /* OpenGL.framework in Frameworks */,
+				F9EF829E1A1DD88B00B66C2E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +51,9 @@
 		F9EF828A1A1DD53600B66C2E = {
 			isa = PBXGroup;
 			children = (
+				F9EF82A11A1DD8AF00B66C2E /* GLUT.framework */,
+				F9EF829F1A1DD8A300B66C2E /* OpenGL.framework */,
+				F9EF829D1A1DD88B00B66C2E /* Cocoa.framework */,
 				F9EF82951A1DD53600B66C2E /* opengl_experiment */,
 				F9EF82941A1DD53600B66C2E /* Products */,
 			);
@@ -58,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				F9EF82961A1DD53600B66C2E /* main.cpp */,
+				F9EF82A31A1DDA1500B66C2E /* project.h */,
 			);
 			path = opengl_experiment;
 			sourceTree = "<group>";
